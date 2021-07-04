@@ -1,0 +1,261 @@
+@font-face {
+    font-family: "YesevaOne";
+    src: url("../fonts/YesevaOne-Regular.otf");
+}
+
+@font-face {
+    font-family: "MullerRegular";
+    src: url("../fonts/Muller_Regular.ttf");
+}
+
+@font-face {
+    font-family: "MullerMedium";
+    src: url("../fonts/Muller_Medium.otf");
+}
+
+@font-face {
+    font-family: "MullerBold";
+    src: url("../fonts/Muller Bold.ttf");
+}
+
+@font-face {
+    font-family: "MullerMediumItalic";
+    src: url("../fonts/Muller_Medium_Italic.otf");
+}
+
+@font-face {
+    font-family: "MullerRegularItalic";
+    src: url("../fonts/Muller_Regular_Italic.otf");
+}
+
+body {
+    margin: 0;
+}
+
+
+
+#header-container {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#first-block {
+    border-bottom: 1px solid #a8854d6b;
+    padding: 50px 0;
+
+}
+
+#first-block a {
+    display: inline-block;
+    max-width: 279px;
+    text-decoration: none;
+}
+
+.happy-moments {
+    font-size: 30px;
+    font-family: "YesevaOne", serif;
+    color: rgb(153, 110, 28);
+
+}
+
+.best-agency {
+    font-size: 11px;
+    font-family: "MullerRegular", sans-serif;
+    color: rgb(153, 110, 28);
+    text-transform: uppercase;
+    margin-top: 14px;
+}
+
+
+#second-block {
+    margin: 30px 0;
+}
+
+#second-block a {
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 12px;
+    font-family: "MullerMedium", sans-serif;
+    color: rgb(153, 110, 28);
+    text-transform: uppercase;
+}
+
+#second-block a:hover {
+    color: rgb(230, 169, 54);
+}
+
+#main-image {
+    height: 100%;
+    width: 100%;
+}
+
+#main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#dream-container {
+    max-width: 1200px;
+    margin: 134px auto 130px auto;
+}
+
+#dream-info {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 604px;
+}
+
+#dream-images {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.title-block {
+    margin: 0;
+    font-size: 45px;
+    font-family: "YesevaOne", serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.222;
+    max-width: 585px;
+}
+
+#dream-description {
+    margin-top: 49px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: "MullerRegular", sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.333;
+    max-width: 487px;
+}
+
+
+
+.dream-item {
+    max-width: 282px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 45px;
+    margin-right: 12px;
+}
+
+.dream-item-title {
+    margin-bottom: 10px;
+}
+
+.dream-item-title span {
+    font-size: 18px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(153, 110, 28);
+    font-weight: bold;
+    line-height: 1.111;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+}
+
+.fa-star {
+    color: #dc9229;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dream-item-description {
+    font-size: 15px;
+    font-family: "MullerRegular", sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.333;
+}
+
+#first-dream-image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 24px;
+
+}
+
+#second-dream-image {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#couple {
+    background: #faf7f2;
+    padding: 120px 0 83px 0;
+    font-size: 0;
+}
+
+#couple-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#couple-items {
+    margin-top: 59px;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.couple-item {
+    margin: 0 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.couple-item p {
+    margin: 20px 0 0;
+    font-size: 18px;
+    font-family: "MullerMediumItalic", sans-serif;
+    color: rgb(197, 182, 152);
+    font-style: italic;
+}
+
+#footer {
+    background: #f1d2bd;
+    padding: 27px 0;
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#footer-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 311px;
+}
+
+
+svg {
+    fill: #a9803a;
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    margin-right: 20px;
+}
+
+svg:hover {
+    fill: #644304
+}
+
+#footer-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 11px;
+    font-family: "MullerRegularItalic", sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 5;
+}
+
+#footer-title {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 273px;
+    margin-right: 301px;
+    text-align: center;
+}
+
